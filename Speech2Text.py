@@ -10,13 +10,10 @@ while 1:
 
     try:
         input = r.recognize_google(audio) # recognize speech using Google Speech Recognition
-
-        #print("You said " + input)
-
         if input == "Thanos" or input == "Fanos":
             output = "Your mum is so fat, Thanos had to snap twice"
         elif input == "hello" or input == "hi":
-            output = "Your voice is sexy as fuck, boy"
+            output = "Hello there."
         elif input == "beans":
             output = "Get ready, for the fattest beans in town"
             webbrowser.open ('https://www.google.com/search?q=beans&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjGotzYhYfiAhVBcBQKHf0ODooQ_AUIDigB&biw=3072&bih=1586')
